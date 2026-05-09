@@ -1,0 +1,50 @@
+<!--127.0.0.1:5000/login-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body style="text-align: center;">
+    <form action="/login" method="post">
+        
+        <h1>Sign In</h1>
+
+        <br>
+
+        <div> <!-- username input -->
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+
+        </div>
+
+        <br>
+
+        <div> <!-- password input -->
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="1" placeholder="Password" required>
+
+        </div>
+
+        <br>
+
+        <div> <!-- submit button -->
+
+            <input type="submit" value="Login">
+
+        </div>
+
+        <br>
+
+        <div> <!-- reset button -->
+
+            <input type="reset" value="Reset">
+
+        </div>
+    </form>
+</body>
+</html>
